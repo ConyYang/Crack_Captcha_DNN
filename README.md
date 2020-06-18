@@ -8,4 +8,10 @@ pip install scikit-image
 !wget -nc http://labfile.oss.aliyuncs.com/courses/1133/Coval-Black.ttf
 pip install pandas
 pip install scikit-learn
-pip install pybrain
+
+### Mechanism 
+We use Multilayer Perceptron to train the model.
+Parameters:
+- hidden_layer_sizes: the #no. of hidden neurons
+- random_state: random seed. can be set for repetitive training
+- activation function: default: ReLu()
