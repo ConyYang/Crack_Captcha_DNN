@@ -1,5 +1,5 @@
 from skimage.measure import label, regionprops
-from createCaptcha import create_captcha
+from datasetPrepare.createCaptcha import create_captcha
 from matplotlib import pyplot as plt
 
 

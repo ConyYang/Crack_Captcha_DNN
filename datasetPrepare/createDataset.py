@@ -1,10 +1,8 @@
 from sklearn.utils import check_random_state
-from createCaptcha import create_captcha
+from datasetPrepare.createCaptcha import create_captcha
 import numpy as np
-from matplotlib import pyplot as plt
-from skimage import transform as tf
 from skimage.transform import resize
-from sliceImg import segment_image
+from datasetPrepare.sliceImg import segment_image
 from sklearn.preprocessing import OneHotEncoder
 
 onehot = OneHotEncoder()

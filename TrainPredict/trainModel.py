@@ -6,8 +6,8 @@ from sklearn.metrics import f1_score
 from sklearn.metrics import classification_report
 import pickle
 
-images = pd.read_csv('Dataset/images.csv')
-labels = pd.read_csv('Dataset/label.csv')
+images = pd.read_csv('../Dataset/images.csv')
+labels = pd.read_csv('../Dataset/label.csv')
 
 clf = MLPClassifier(hidden_layer_sizes=(100,), random_state=14)
 
